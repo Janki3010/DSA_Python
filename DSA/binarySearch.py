@@ -5,6 +5,7 @@ print(a)
 
 data = int(input("Search Value:"))
 
+
 def binarySearch(a, n, data):
     l = 0
     r = n - 1
@@ -17,6 +18,7 @@ def binarySearch(a, n, data):
         else:
             r = mid - 1
     return -1
+
 
 result = binarySearch(a, n, data)
 if result != -1:

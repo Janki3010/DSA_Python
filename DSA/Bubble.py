@@ -1,10 +1,10 @@
-a = [1, 4, 7, 2, 5, 9, 2, 4, 1, 3, 7, 5]
+a = [16, 14, 6, 8, 5]
 n = len(a)
 f = 0
 print("Original:", a)
 for i in range(n):
     f = 0
-    for j in range(n - i - 1):
+    for j in range(n - 1 - i):
         if a[j] > a[j + 1]:
             a[j], a[j + 1] = a[j + 1], a[j]
             f = 1
